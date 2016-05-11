@@ -40,7 +40,7 @@ string FileSys::GetExtension()
 	{
 		return "";
 	}
-	strExt = m_filePath.substr(iPos + 1);
+	strExt = m_filePath.substr(iPos);
 
 	return strExt;
 }
