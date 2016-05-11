@@ -6,7 +6,7 @@
 #endif
 #include "direct.h"
 
-static void readDirectory(const string& directoryName, vector<string>& filenames, bool addDirectoryName)
+void readDirectory(const string& directoryName, vector<string>& filenames, bool addDirectoryName)
 {
 	filenames.clear();
 
